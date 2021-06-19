@@ -1,0 +1,98 @@
+@media (min-width:768px) and (max-width:991px){
+    
+
+    body{
+        background-image: linear-gradient(to right,rgb(46, 44, 148),grey);
+        background-size: 1000px;
+    }
+    .buttons input{
+        width: 61px;
+        height: 56px;
+        font-size: medium;
+        background-color: grey;
+        border: 2px solid rgb(33, 33, 160);
+        transition: 0.3s ease;
+    }
+    .buttons input:hover{
+      transform: scale(1.1);
+      box-shadow: 1px 2px 3px rgb(28, 75, 97);
+    }
+    
+    .display input{
+        width: 245px;
+        height:40px ;
+        font-size: medium;
+        font-weight: bold;
+        margin-bottom: 10px;
+        border: 2px solid rgb(33, 33, 160);
+    }
+    .display input[type=text]{
+       background-color: rgb(148, 151, 151);
+    }
+    .container{
+        display: block;
+        background-color: rgb(172, 178, 189);
+        width: 300px;
+        height: 450px;
+       margin-top: 25px;
+       margin-left: 250px;
+       
+    }
+    
+    .calci{
+        background-image: linear-gradient(to right,rgb(151, 140, 140),rgb(37, 37, 114));
+        padding: 20px 20px 20px 20px;
+        box-shadow:10px 10px 10px rgb(180, 167, 167);
+        padding: 20px 20px 20px 20px;
+        height: 420px;
+        width: 257px;
+    }
+    
+    h1{
+        color: rgb(44, 43, 43);
+        font-weight: bold;
+        margin-top: 90px;
+        margin-left: 230px;
+        
+    }
+    
+    .darkmode{
+        background-image: linear-gradient(to right,rgb(36, 35, 35),rgb(39, 39, 116));
+        color:white;
+    }
+    
+    .darkmode .calci{
+        background-image: linear-gradient(to right,rgb(55, 50, 117),rgb(48, 46, 46));
+    }
+    
+    .darkmode h1{
+        color: white;
+    }
+    
+    .darkmode .buttons input{
+        background-color: rgb(10, 10, 10);
+        border: 2px solid rgb(33, 33, 160);
+        color: white;
+    }
+    
+    .darkmode .container{
+        box-shadow: 2px 3px 4px rgb(212, 204, 204);
+    }
+    
+    .darkmode .display input[type=text]{
+        background-color: rgb(12, 12, 12);
+        color: white;
+     }
+    button{
+        float:right;
+        background-color: black;
+        color: white;
+        margin-top: -80px;
+        margin-right: 10px;
+    }
+    
+
+    
+
+
+}

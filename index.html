@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/moblie.css">
+    <link rel="stylesheet" href="css/smallmoblie.css">
+    
+    
+
+    <script src="js/calci.js">
+    </script>
+</head>
+<body>
+     <button onclick="mode()">Drak mode</button>
+    <h1>STARK CALCULATOR</h1>
+    <div class="container">
+        <div class="calci">
+    <div class="display">
+        <input type="text" id="result" name="res"/>
+    </div>
+    <div class="buttons">
+            <td><input type="button" value="7" onclick="enter('7')"/></td>
+            <td><input type="button" value="8" onclick="enter('8')"/></td>
+            <td><input type="button" value="9" onclick="enter('9')"/></td>
+            <td><input type="button" value="*" onclick="enter('*')"/></td>
+            <br><br>
+            <td><input type="button" value="6" onclick="enter('6')"/></td>
+            <td><input type="button" value="5" onclick="enter('5')"/></td>
+            <td><input type="button" value="4" onclick="enter('4')"/></td>
+            <td><input type="button" value="/" onclick="enter('/')"/></td>
+            <br><br>
+            <td><input type="button" value="3" onclick="enter('3')"/></td>
+            <td><input type="button" value="2" onclick="enter('2')"/></td>
+            <td><input type="button" value="1" onclick="enter('1')"/></td>
+            <td><input type="button" value="-" onclick="enter('-')"/></td>
+            <br><br>
+            <td><input type="button" value="0" onclick="enter('0')"/></td>
+            <td><input type="button" value="(" onclick="enter('(')"/></td>
+            <td><input type="button" value=")" onclick="enter(')')"/></td>
+            <td><input type="button" value="%" onclick="enter('%')"/></td>
+            <br><br>
+            <td><input type="button" value="+" onclick="enter('+')"/></td>
+            <td><input type="button" value="&#183;" onclick="enter('.')"/></td>
+            <td><input type="button" value="c" onclick="Clear()"></td>
+            <td><input type="button" value="=" onclick="equal('=')"/></td>
+            <br><br>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
